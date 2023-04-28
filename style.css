@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+}
+.paragraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #fff;
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+}
+
+nav li a.active {
+    background-color: #555;
+    color:burlywood;
+}
+
+.hbt {
+    padding-right: 850px;
+    color: #fff;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(./спальня.jpeg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tx {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.p {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: rgb(244, 233, 233);
+}
+
+.button {
+    margin-left: 45%;
+    height: 50px;
+    width: 160px;
+    background-color: #333;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 200px;
+}
+
+.page-wrapper {
+    display: flex;
+}
+
+.photo-wrapper {
+    flex-basis: 50%;
+    height: 1px;
+}
+
+img {
+    width: 100%;
+}
+
+.background-wrapper {
+    flex-grow: 1;
+    background-image: url(./home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.baa {
+    color:rgb(230, 185, 128);
+}
+
+
+
+.buton {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-left: 35%; 
+}
+
+.conteyner {
+    display: flex;
+}
+
+.first_block {
+    flex-grow: 1;
+    height: 100px;
+    background-color: white;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.second_block {
+    flex-grow: 1; 
+    height: 160px; 
+    background-color: burlywood;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.third_block {
+    flex-grow: 1; 
+    height: 100px; 
+    background-color: white;
+    padding: 40px;
+    font-size: 18px;
+}
+
+div .h2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.sport {
+    height: 50px;
+    width: 50px;
+}
+
+nav {
+    background-color: #333;
+    pad: 30px;
+}
+
+
+
+
+
+nav p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    color: red
+}
+
+.hopa {
+    border: 1px solid black;
+    border-radius: 80%;
+    padding: 1px;
+}
